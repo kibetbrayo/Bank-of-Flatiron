@@ -6,4 +6,44 @@ body{
     border: 1px solid #ccc;
     padding: 10px;
   }
+  /* Transaction.css */
+
+/* Styling for the table row */
+.transaction-item {
+    background-color: #f5f5f5;
+    font-size: 20px;
+  }
+  
+  
+  /* Styling for the AddTransactionForm */
+  .ui.segment {
+    margin-bottom: 20px;
+  }
+  
+  .ui.form {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .inline.fields {
+    display: flex;
+    align-items: center;
+  }
+  
+  .inline.fields input {
+    margin-right: 10px;
+  }
+  
+  .ui.button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .ui.button:hover {
+    background-color: #0056b3;
+  }
   
