@@ -1,0 +1,9 @@
+body{
+    background-color: wheat;
+
+}
+.transaction-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  
