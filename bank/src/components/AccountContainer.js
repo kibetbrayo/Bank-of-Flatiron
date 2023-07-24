@@ -24,12 +24,10 @@ const AccountContainer = () => {
   };
 
   const handleAddTransaction = (newTransaction) => {
-    // Simulate adding data to the local state, replace this with your server-side implementation
     setTransactions([...transactions, newTransaction]);
   };
 
   const handleDeleteTransaction = (transactionId) => {
-    // Simulate deleting data from the local state, replace this with your server-side implementation
     const updatedTransactions = transactions.filter((transaction) => transaction.id !== transactionId);
     setTransactions(updatedTransactions);
   };
