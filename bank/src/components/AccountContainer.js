@@ -12,8 +12,7 @@ const AccountContainer = () => {
   }, [query]);
 
   const fetchTransactions = (searchQuery) => {
-    // Replace the URL with the actual endpoint that fetches transactions from the server
-    fetch(`  http://localhost:8000/transactions?q=${searchQuery}`)
+    fetch(`http://localhost:8000/transactions?q=${searchQuery}`)
       .then((response) => response.json())
       .then((data) => setTransactions(data))
       .catch((error) => console.error("Error fetching transactions:", error));

@@ -1,4 +1,3 @@
-// AddTransactionForm.js
 import React, { useState } from "react";
 
 function AddTransactionForm({ onAddTransaction }) {
