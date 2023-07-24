@@ -1,7 +1,8 @@
 import React from "react";
 import Transaction from "./Transaction";
-
+//defining transaction list
 function TransactionsList({ transactions, onDeleteTransaction }) {
+ //jsx for rendering table 
   return (
     <table>
       <thead>
