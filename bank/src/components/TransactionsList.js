@@ -3,23 +3,23 @@ import Transaction from "./Transaction";
 
 function TransactionsList({ transactions, onDeleteTransaction }) {
   return (
-    <table className="ui celled striped padded table">
+    <table>
       <thead>
         <tr>
           <th>
-            <h3 className="ui center aligned header">Date</h3>
+            <h3>Date</h3>
           </th>
           <th>
-            <h3 className="ui center aligned header">Description</h3>
+            <h3>Description</h3>
           </th>
           <th>
-            <h3 className="ui center aligned header">Category</h3>
+            <h3>Category</h3>
           </th>
           <th>
-            <h3 className="ui center aligned header">Amount</h3>
+            <h3>Amount</h3>
           </th>
           <th>
-            <h3 className="ui center aligned header">Actions</h3>
+            <h3>Actions</h3>
           </th>
         </tr>
       </thead>

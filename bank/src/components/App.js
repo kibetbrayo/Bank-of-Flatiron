@@ -4,7 +4,7 @@ import AccountContainer from "./AccountContainer";
 function App() {
   return (
     <div>
-      <div className="ui segment violet inverted">
+      <div>
         <h2>THE ROYAL BANK OF FLATIRON</h2>
       </div>
       <AccountContainer />
